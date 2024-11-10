@@ -1,0 +1,146 @@
+/* Custom Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo-part1 {
+    color: #333; /* Change to match the color used for "Pana" */
+    font-weight: normal;
+}
+
+.logo-part2 {
+    color: #72bf44; /* Green color for "Cloud" */
+    font-weight: bold;
+    position: relative;
+    top: 5px; /* Adjust vertical position if needed */
+    font-size: 28px; /* Increase font size for emphasis */
+    margin-left: 4px; /* Adjust spacing between "Pana" and "Cloud" */
+}
+
+.hero-section {
+    background-color: #72bf44;
+    color: white;
+    padding: 50px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#services .col-md-3 {
+    margin-bottom: 20px;
+}
+
+#portfolio img {
+    border-radius: 10px;
+}
+
+#contact .form-control {
+    margin-bottom: 15px;
+}
+/* Top Black Bar */
+.top-bar {
+    font-size: 14px;
+}
+
+.top-bar .btn-warning {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.service-box {
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.service-icon {
+    font-size: 2em;
+    color: #ff5252; /* Red color for the star */
+    background-color: #ffc107; /* Orange background */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.service-box h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.read-more {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+.about-us{
+    display: flex;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.text-section{
+    flex: 1;
+    padding: 20px;
+}
+.text-section h1 {
+    color: #333;
+}
+.text-section p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.text-section button{
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.image-section{
+    flex: 1;
+    display: flex;
+    flex-direction: coloumn;
+    align-items: center;
+    position: relative;
+}
+
+.data-box{
+    background-color: #a8dadc;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon-section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+.icon{
+    font-size: 104px;
+    color: #333;
+}
